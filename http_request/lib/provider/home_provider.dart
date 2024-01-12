@@ -28,7 +28,12 @@ class _HomeProviderState extends State<HomeProvider> {
 
     return Scaffold(
         appBar: AppBar(
-          title: const Text("HTTP Request"),
+          title: const Text(
+              "HTTP Request",
+            style: TextStyle(
+                  color: Colors.white
+              )
+          ),
           centerTitle: true,
           backgroundColor: Theme.of(context).primaryColor,
           bottom: TabBar(
